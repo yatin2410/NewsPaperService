@@ -9,6 +9,12 @@ verify_ssl = true
 django = "*"
 gunicorn = "*"
 django-heroku = "*"
+requests = "*"
+bs4 = "*"
+schedule = "*"
+python-firebase = "*"
+PyDrive = "*"
+PyPDF2 = "*"
 
 
 [requires]

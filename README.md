@@ -1,0 +1,2 @@
+# NewsPaperService
+NewsPaperService

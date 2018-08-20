@@ -17,6 +17,11 @@ urlpatterns = [
     url(r'^sandeshbar', hello.views.sandeshbar, name='sandeshbar'),
     url(r'^sandeshsur', hello.views.sandeshsur, name='sandeshsur'),
     url(r'^sendnewssandesh', hello.views.sendnewssandesh, name='sendnewssandesh'),
+    url(r'^othertie', hello.views.othertie, name='othertie'),
+    url(r'^otherfe', hello.views.otherfe, name='otherfe'),
+    url(r'^othertt', hello.views.othertt, name='othertt'),
+    url(r'^othertoi', hello.views.othertoi, name='othertoi'),
+    url(r'^sendnewsother', hello.views.sendnewsother, name='sendnewsother'),
     path('admin/', admin.site.urls),
 
 ]

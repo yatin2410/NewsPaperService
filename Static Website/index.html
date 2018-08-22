@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="gr__papersharing_scm_azurewebsites_net"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>LogIn</title>
+	 <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+<style type="text/css"> #cdac_container { font-family: Arial, sans-serif !important; font-size: 12px !important; min-width: 300px !important;max-width: 600px !important; text-align: inherit !important;	background: #e8f9ff !important;	border: solid 5px #B40404 !important;	color: #000 !important; -webkit-border-radius: 5px !important;	border-radius: 5px !important;} #cdac_title { display: inherit !important; font-family: inherit !important; font-size: 14px !important; font-weight: bold !important; 	text-align: left !important; line-height: 1.75em !important; color: #FFF !important; text-shadow: inherit !important; height:inherit !important; width:inherit !important; 	position:static !important; background: #B40404 repeat-x center top !important; border: solid 1px #B40404 !important; border-bottom: solid 1px #B40404 !important; cursor: default !important; padding: 0em !important; margin: 0em !important; float: none !important; } .cdac_inputred { background: none !important; background-color:#E6E6E6 !important; color:#DF3A01 !important; font-weight: bold;} .cdac_inputgreen { background: none !important; background-color: #E6E6E6 !important; color:#298A08 !important; font-weight: bold;} #cdac_content { padding: 1em 1.75em !important; margin: 0em !important; } #cdac_message { padding-left: 48px !important; color: #000 !important; } #cdac_panel { text-align: center !important; margin: 1em 0em 0em 1em !important; } #cdac_prompt { margin: .5em 0em !important; }#cdac_content.confirm { background:16px 16px no-repeat url(cdac18.png) !important;}</style></head>
+<body style="background-color: #dedede;" data-gr-c-s-loaded="true">
+	<div style="margin: 50px;">
+		
+		<br>
+		<h1 style="text-align: center;">Welcome to Paperwala!</h1><br>
+		
+		<br>
+		<br>
+		
+		<p style="text-align: center;">
+			 Bored of searching for newspaper?  Bored of advertisements?
+    <br> 
+    Then You are at the  right place. Get your newspaper daily with just a click.
+    <br>
+    Your subscribed newspaper will arrive between 7 A.M. to 8 A.M. on your registered gmail address.
+    <br>
+    Are you still reading this, subscribe...
+		</p>
+	</div>
+
+	<div style="width: 150px; margin: 0 auto 0 auto;">
+	<button onclick="document.getElementById('id01').style.display='block'" style="width: auto;"><span>LogIn / SignUp</span></button>
+	</div>
+
+	<div id="id01" class="modal">
+
+		<div class="contect animate">
+
+	<div class="headercontainer">
+
+	<div class="loader"></div>
+		<h2>PaperWala</h2>
+		<span onclick="document.getElementById('id01').style.display='none'" class="end">×</span>
+	</div>
+
+	<div class="container">
+		<label>Email Id:</label>
+		<input name="" placeholder="Enter Your Gmail" id="emailTxt" type="text">
+		<label>Password</label>
+		<input name="" placeholder="Enter Minimum 6-digits password" id="passwordTxt" type="Password">
+		<div class="btncontainer">
+		<button id="btnli" onclick="document.getElementsByClassName('loader')[0].style.visibility='visible'"><span>Log In</span></button>
+		<button id="btns"><span>Sign Up</span></button>
+		</div>
+	</div>
+
+	<div class="container">
+		<button onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><span>Cancel</span></button>
+		<p class="psw"><a id="fpass" style="cursor: pointer;"><u>Forgot Password?</u></a></p>
+	</div>
+
+	</div>
+
+	</div>
+
+
+	<script src="firebase.js"></script>
+  <script src="index.js"> </script>
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
